@@ -5,9 +5,7 @@ using namespace std;
 void PrintAchecked(bool*Achecked,int length)
 {
   for(int i=0;i<length;i++)
-  {
     cout<<Achecked[i]<<",";
-  }
   cout<<endl;
 }
 
@@ -21,9 +19,7 @@ bool ArrayComp(int*a,int*b,int length)
   int i,j;
 
   for(i=0;i<length;i++)
-  {
     Achecked[i]=Bchecked[i]=false;
-  }
   for(i=0;i<length;i++)
   {
     if(Achecked[i])
